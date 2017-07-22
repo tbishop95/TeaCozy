@@ -6,15 +6,21 @@ body {
   font-family: Helvetica;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
 /*Header*/
 header {
-  display: flex;
+  background-color: black;
   align-items: center;
   z-index: 1;
   position: fixed;
   height: 69px;
   width: 100%;
-  border-bottom: 1px solid seashell
+  border-bottom: 1px solid seashell;
 }
 
 a {
@@ -30,4 +36,37 @@ a {
 nav span {
   display: inline-block;
   padding: 0px 10px;
+}
+
+/*Content*/
+.main {
+  padding-top: 70px;
+  opacity: 0.9;
+  width: 1200px;
+  margin: auto;
+  z-index: 10;
+}
+
+/*Content - Mission*/
+
+#mission {
+  height: 700px;
+  background-image: url(/Users/thomasbishop/Documents/Projects/teacozy/resources/images/img-mission-background.jpg);
+}
+
+#mission .content {
+  background-color: black;
+  width: 100%;
+  margin: auto;
+  text-align: center;
+}
+
+/*Content - Featured Teas*/
+.container .tea {
+  width: 1000px;
+}
+
+.tea img{
+  height: 200px;
+  width: 300px;
 }
