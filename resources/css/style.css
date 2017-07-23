@@ -5,26 +5,21 @@ body {
   font-size: 22px;
   font-family: Helvetica;
   margin: 0;
-}
-
-h2,
-h3,
-h4 {
   text-align: center;
 }
 
 /*Header*/
 header {
-  background-color: black;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
   align-items: center;
   z-index: 1;
   position: fixed;
   height: 69px;
   width: 100%;
   border-bottom: 1px solid seashell;
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
+  background-color: black;
 }
 
 a {
@@ -47,7 +42,7 @@ nav {
 }
 
 /*Content*/
-.main {
+.content {
   padding-top: 70px;
   opacity: 0.9;
   width: 1200px;
@@ -67,8 +62,8 @@ nav {
 #mission .content {
   background-color: black;
   width: 100%;
-  margin: auto;
   text-align: center;
+  padding-top: 0px;
 }
 
 /*Content - Featured Teas*/
@@ -104,8 +99,9 @@ nav {
 
 /*Content - Locations Teas*/
 #locations {
-  height: 500px;
+  margin-top: 70px;
   padding-top: 70px;
+  height: 500px;
   background-image: url(/Users/thomasbishop/Documents/Projects/teacozy/resources/images/img-locations-background.jpg);
 }
 
@@ -116,10 +112,10 @@ nav {
 }
 
 .location {
-  opacity: 1.0;
   padding: 10px;
   margin: 5px 20px;
   background-color: black;
+  opacity: 1px;
   width: 300px;
   height: 250px;
   display: flex;
@@ -130,4 +126,13 @@ nav {
 .location span {
   padding: 10px 0px;
   text-align: center;
+}
+
+/*Content - Footer*/
+.storeinfo {
+  height: 200px;
+}
+
+.copyright {
+  text-align: left;
 }
