@@ -56,7 +56,7 @@ nav {
   justify-content: center;
   flex-wrap: wrap;
   height: 700px;
-  background-image: url(/Users/thomasbishop/Documents/Projects/teacozy/resources/images/img-mission-background.jpg);
+  background-image: url(../images/img-mission-background.jpg);
 }
 
 #mission .content {
